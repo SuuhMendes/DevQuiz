@@ -1,0 +1,56 @@
+{
+    "title":"Qual Nível Dev Você É ?",
+    "questions":[
+      {
+        "id":1,
+        "question": "Você já contribuiu para projetos de código aberto ou participou de comunidades de desenvolvimento?",
+        "options":[
+          {"id": 1, "name":" Sim, eu sou ativo em projetos de código aberto e contribuo regularmente.", "alias":"A"},
+          {"id": 2, "name":" Eu já participei esporadicamente, mas não de forma consistente.", "alias":"B"},
+          {"id": 3, "name":" Não, eu nunca contribuí para projetos de código aberto.", "alias":"c"}
+        
+        ]
+      },
+      {
+        "id":2,
+        "question": "Quanta experiência você tem com o uso de ferramentas de controle de versão, como Git?",
+        "options":[
+          {"id": 1, "name":" Eu sei usar Git, mas às vezes preciso de ajuda para resolver problemas", "alias":"B"},
+          {"id": 2, "name":" Eu sou proficiente e confortável usando Git em projetos colaborativos.", "alias":"A"},
+          {"id": 3, "name":" Eu tenho pouca ou nenhuma experiência com ferramentas de controle de versão.", "alias":"c"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Como você descreveria sua experiência com linguagens de programação populares, como Java, Python ou JavaScript?",
+        "options":[
+          {"id": 1, "name":" Estou confortável com uma ou duas linguagens, mas ainda estou aprendendo outras.", "alias":"B"},
+          {"id": 2, "name":" Tenho uma ampla experiência em várias linguagens de programação.", "alias":"A"},
+          {"id": 3, "name":"Sou novo em programação e estou aprendendo uma linguagem no momento", "alias":"c"}
+       
+        ]
+      },
+      {
+        "id":4,
+        "question": "Qual é o seu nível de familiaridade com práticas de desenvolvimento ágil, como Scrum ou Kanban?",
+        "options":[
+          {"id": 1, "name":" Tenho ampla experiência em práticas ágeis e já trabalhei em equipes ágeis.", "alias":"A"},
+          {"id": 2, "name":"Eu não tenho experiência com práticas ágeis.", "alias":"c"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "Qual é a sua experiência com design de arquitetura de software?",
+        "options":[
+          {"id": 1, "name":"Eu não tenho experiência em design de arquitetura de software.", "alias":"c"},
+          {"id": 2, "name":" Eu já liderei projetos de design de arquitetura de ponta a ponta.", "alias":"A"},
+          {"id": 1, "name":"Eu contribuí para o design de arquitetura em projetos, mas não liderei.", "alias":"B"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "Você muito provavelmente é: Nível Sênior",
+      "B": "Você muito provavelmente é: Nível Pleno",
+      "c": "Você muito provavelmente é: Nível Junior"
+    }
+  }
